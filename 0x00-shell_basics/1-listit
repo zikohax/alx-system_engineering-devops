@@ -1,1 +1,2 @@
-echo $(ls)
+#!/bin/bash
+ls -1 | awk -F/ '{print $NF}'
